@@ -4,12 +4,12 @@
   xmlns:dfxml="http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML"
   xmlns:merl="https://mikemabey.com/schema/merl"
   targetNamespace="https://mikemabey.com/schema/merl"
-  version="0.2"
+  version="0.2.1"
   elementFormDefault="qualified">
 
   <xs:annotation>
     <xs:documentation>
-      This is the schema file for Matching Extension Ranking List (MERL) version 0.2.
+      This is the schema file for Matching Extension Ranking List (MERL) version 0.2.1.
     </xs:documentation>
   </xs:annotation>
 
@@ -38,12 +38,12 @@
 
   <xs:element name="candidate">
     <xs:complexType>
-      <xs:sequence>
+      <xs:all>
         <xs:element ref="merl:ext_id" minOccurs="1" maxOccurs="1"/>
         <xs:element ref="merl:ext_ver" minOccurs="1" maxOccurs="1"/>
         <xs:element ref="merl:ext_name" minOccurs="0" maxOccurs="1"/>
         <xs:element ref="merl:confidence" minOccurs="0" maxOccurs="1"/>
-      </xs:sequence>
+      </xs:all>
     </xs:complexType>
   </xs:element>
 
