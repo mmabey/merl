@@ -4,12 +4,12 @@
   xmlns:dfxml="http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML"
   xmlns:merl="https://mikemabey.com/schema/merl"
   targetNamespace="https://mikemabey.com/schema/merl"
-  version="0.2.2"
+  version="0.1"
   elementFormDefault="qualified">
 
   <xs:annotation>
     <xs:documentation>
-      This is the schema file for Matching Extension Ranking List (MERL) version 0.2.2.
+      This is the schema file for Matching Extension Ranking List (MERL) version 0.1.
     </xs:documentation>
   </xs:annotation>
 
